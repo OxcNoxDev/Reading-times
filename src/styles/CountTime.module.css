@@ -1,0 +1,26 @@
+.content{
+    width: 100%;
+    height: 700px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    /* background: red; */
+}
+.display{
+    padding: 0px 0px -100px 0px;
+    height: 60px;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.display div{
+    font-size: 50px;
+    margin: 0px 20px 0px 20px;
+}
+.but_all button{
+    margin: 0px 60px 0px 60px;
+    width: 120px;
+    border: 0px;
+    border-radius: 100%;
+    height: 120px;
+}
