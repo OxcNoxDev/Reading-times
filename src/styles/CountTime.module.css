@@ -8,7 +8,7 @@
 .display{
     height: 60px;
     display: flex;
-    margin: 180px 0px 0px 0px;
+    margin: 120px 0px 0px 0px;
 }
 .display div{
     font-size: 50px;
@@ -16,6 +16,7 @@
 }
 .but_all button{
     color:white;
+    font-size: 20px;
     margin: 0px 70px 0px 70px;
     width: 120px;
     border: 0px;
