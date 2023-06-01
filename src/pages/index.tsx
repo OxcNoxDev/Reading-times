@@ -56,7 +56,7 @@ export default function index({}: Props) {
           <div className={style.but_all}>
             <button id='but-time' style={{background:'red'}} onClick={()=>{setStatus(true); console.log(status)}}>Start</button>
             <button id='but-time' style={{background:'green'}} onClick={()=>setStatus(false)}>End</button>
-            <button id='but-time' style={{background:'orange'}} onClick={clearTime}>Reset</button>
+            <button id='but-time' style={{background:'orange'}} onClick={()=>{if(!status)clearTime()}}>Reset</button>
           </div>
       </div>
       
