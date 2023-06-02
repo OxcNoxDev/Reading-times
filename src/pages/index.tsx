@@ -54,9 +54,10 @@ export default function index({}: Props) {
             <div className="seconds-number"> {sec} Seconds</div>
           </div>
           <div className={style.but_all}>
-            <button id='but-time' style={{background:'red'}} onClick={()=>{setStatus(true); console.log(status)}}>Start</button>
-            <button id='but-time' style={{background:'green'}} onClick={()=>setStatus(false)}>End</button>
+            <button id='but-time' style={{background:'green'}} onClick={()=>{setStatus(true); console.log(status)}}>Start</button>
+            <button id='but-time' style={{background:'red'}} onClick={()=>setStatus(false)}>End</button>
             <button id='but-time' style={{background:'orange'}} onClick={()=>{if(!status)clearTime()}}>Reset</button>
+            <button id='but-time' style={{background:'yellow'}}>Record</button>
           </div>
       </div>
       
